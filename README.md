@@ -19,12 +19,14 @@ These instructions will get you a copy of the project up and running on your loc
 2. Install dependencies with `npm install`
 3. Create a `.env` file in the root directory and add your MongoDB Atlas user and password:
 
-```env
+### env
+
 DB_USER=your_db_user
 DB_PASS=your_db_password
 
 
 ### Running the Server
+
 Start the server with node app.js (or nodemon app.js if you have nodemon installed). The server will start on http://localhost:8000.
 
 ### API Endpoints
